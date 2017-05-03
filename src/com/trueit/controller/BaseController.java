@@ -15,7 +15,7 @@ public class BaseController  {
 	@RequestMapping(value="main", method = RequestMethod.GET)
     public ModelAndView onInitMain() {
         
-        return new ModelAndView("mainContent/main", "userForm",new String());
+        return new ModelAndView("main/main", "userForm",new String());
     }
 	
 //	@RequestMapping(value="init", method = RequestMethod.GET)
